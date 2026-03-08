@@ -1,7 +1,7 @@
 # Escape Room Repository
 Puzzle Documents and Designs 
 
-Repository containing work from my past microcontroller projects. The following project hub contains resources that were vital to development. This includes the following:
+This repository contains work from my past microcontroller projects. The following project hub contains resources that were vital to development. This includes the following:
 - Datasheets
 - Programs
 - Photos
