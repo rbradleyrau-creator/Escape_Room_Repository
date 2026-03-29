@@ -4,14 +4,14 @@
 
 // Global Variables
 // ENSURE YELLOW IS HIGHEST VALUE PIN AND GREEN IS LOWEST
-int RED_OUT_PIN = 14; // button 1
-int GRN_OUT_PIN = 12; // button 2
-int BLU_OUT_PIN = 13; // button 3
-int YEL_OUT_PIN = 15; // button 4
+#define RED_OUT_PIN 14 // button 1
+#define GRN_OUT_PIN 12 // button 2
+#define BLU_OUT_PIN 13 // button 3
+#define YEL_OUT_PIN 15 // button 4
 int rb, gb, bb, yb;
 
-int START_IN_PIN = 2;
-int RELAY_PIN = 4;
+#define START_IN_PIN 2
+#define RELAY_PIN 4
 bool gameWon = false;
 
 // PromptLed inputs global for dataReceived
@@ -19,7 +19,7 @@ bool allowInput = false;
 bool rbCheck, gbCheck, bbCheck, ybCheck, correct;
 int numSuccess, multFactor, totalLights;
 
-// Name defenitions
+// Name definitions
 #define MY_NAME   "SLAVE_NODE"
 
 // Define what packets will look like when received
